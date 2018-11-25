@@ -3,13 +3,13 @@ var app = express();
 
 app.get("/", (req, res) => {
   res.send({
-    Output: "Hello Jake!"
+    Output: "안녕 제이크!"
   });
 });
 
 app.post("/", (req, res) => {
   res.send({
-    Output: "Hello Jake!"
+    Output: "안녕 제이크!"
   });
 });
 
